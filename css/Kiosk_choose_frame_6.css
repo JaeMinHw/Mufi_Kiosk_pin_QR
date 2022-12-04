@@ -1,0 +1,168 @@
+/* #button {
+    position: absolute;
+    top:700px;
+    left:870px;
+} */
+
+/* #myCanvas0 {
+     
+} */
+
+#info_4 {
+    background-image: url('../image_4/Kiosk_choose_frame_4.png');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#info_6 {
+    background-image: url('../image_4/Kiosk_choose_frame_6.png');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#myCanvas0 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 289px;
+    left: 365px;
+
+
+}
+
+#myCanvas1 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 289px;
+    left: 577px;
+
+}
+
+#myCanvas2 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 289px;
+    left: 790px;
+}
+
+#myCanvas3 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 289px;
+    left: 1003px;
+}
+
+#myCanvas4 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 289px;
+    left: 1213px;
+}
+
+#myCanvas5 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 289px;
+    left: 1426px;
+}
+
+#myCanvas6 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 289px;
+    left: 1638px;
+}
+
+
+
+#myCanvas7 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 652px;
+    left: 365px;
+}
+
+#myCanvas8 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 652px;
+    left: 577px;
+}
+
+#myCanvas9 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 652px;
+    left: 790px;
+}
+
+#myCanvas10 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 652px;
+    left: 1003px;
+}
+
+#myCanvas11 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 652px;
+    left: 1213px;
+}
+
+#myCanvas12 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 652px;
+    left: 1426px;
+}
+
+#myCanvas13 {
+    position: absolute;
+    height: 344px;
+    width: 195px;
+    top: 652px;
+    left: 1638px;
+}
+
+#time {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    font-size: 80px;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+}
+
+#button {
+    position: absolute;
+    top: 800px;
+    left: 110px;
+    border: 0;
+    outline: none;
+    font-size: 30px;
+    margin: 30px;
+    background: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}

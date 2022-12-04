@@ -1,0 +1,46 @@
+<br><br>
+<div id="time"> </div>
+<div id="photo_co"> </div>
+<video id="myVideo" width="1200" height="800" style="border: 1px solid #ddd;"></video>
+<canvas id="myCanvas" width="800" height="450" style="border: 1px solid #ddd;"></canvas><br>
+<canvas id="myCanvas1" width="600" height="400" style="border: 1px solid #ddd;"></canvas><br>
+
+<script src="../js/Kiosk_capture_6.js"></script>
+<script src="../js/page_count.js"></script>
+<link href="../css/Kiosk_capture.css" rel="stylesheet" type="text/css" />
+
+<script>
+    a = getVideo();
+    console.log(a);
+
+    var time = 10000;
+    // var cap_sound = setInterval(function() {
+    //     var audio = new Audio('../audio/audio_file.wav');
+    //     audio.play();
+    // },time-140);
+    setTimeout(() => {
+        var audio = new Audio('../audio/audio_file.wav');
+        audio.play();
+    }, 9250);
+    var cap_sound = setInterval(function () {
+        setTimeout(() => {
+            var audio = new Audio('../audio/audio_file.wav');
+            audio.play();
+        }, 9600);
+
+    }, time);
+
+    var intervalVar = setInterval(function () {
+
+        takeSnapshot();
+    }, time);
+    cap_time_cou();
+    print_cou(10);
+
+
+    setTimeout(function () {
+        send1();
+    }, time * 11 - 9500);
+
+    document.getElementById('myCanvas').style.display = "none";
+</script>

@@ -1,0 +1,44 @@
+<br><br>
+<div id="time"> </div>
+<div id="photo_co"> </div>
+<video id="myVideo" width="1200" height="800" style="border: 1px solid #ddd;"></video>
+<canvas id="myCanvas" width="800" height="450"></canvas><br>
+<canvas id="myCanvas1" width="600" height="400" style="border: 1px solid #ddd;"></canvas><br>
+
+<script src="../js/Kiosk_capture_4.js"></script>
+<script src="../js/page_count.js"></script>
+<link href="../css/Kiosk_capture.css" rel="stylesheet" type="text/css" />
+
+<script>
+    accessVideo = true;
+    getVideo();
+
+
+    var time = 10000;
+    var ph_co = 0;
+
+    setTimeout(() => {
+        var audio = new Audio('../audio/audio_file.wav');
+        audio.play();
+    }, 9250);
+    var cap_sound = setInterval(function () {
+        setTimeout(() => {
+            var audio = new Audio('../audio/audio_file.wav');
+            audio.play();
+        }, 9600);
+
+    }, time);
+
+    var intervalVar = setInterval(function () {
+        takeSnapshot();
+    }, time);
+    cap_time_cou();
+    print_cou(8);
+
+    setTimeout(function () {
+        send1();
+    }, time * 9 - 9500);
+
+    document.getElementById('myCanvas').style.display = "none";
+
+</script>

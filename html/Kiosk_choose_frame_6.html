@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/Kiosk_choose_frame_6.js"></script>
+    <link href="../css/Kiosk_choose_frame_6.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="time"> </div>
+
+    <div id="info_6">
+
+    </div>
+
+    <!-- <script>
+        var count_frame_4 = 14;
+        var count_frame_6 = 14
+        var file_name = 'cb_frame'
+        function image_print(z) {
+            // 만약 4컷이면
+            if (sessionStorage.getItem('what_frame') == 4) {
+                for (var i = 1; i <= count_frame_4; i++) {
+                    img_src = '../image4_select/' + file_name + i + '.png'
+                }
+                return img_src;
+            }
+            else if (sessionStorage.getItem('what_frame') == 6) {
+                for (var i = 1; i <= count_frame_6; i++) {
+                    img_src = '../image6_select/' + file_name + i + '.png'
+                }
+                return img_src;
+            }
+
+            img_src = '../image6_select/' + file_name + z + '.png'
+
+            return img_src;
+
+            // 만약 6컷이면
+        }
+    </script>
+
+    <img id="myCanvas0" src="">
+    <script>
+        document.getElementById("myCanvas0").src = image_print(1);
+        document.getElementById("myCanvas0").addEventListener('click', function () {
+            count('cb_frame1');
+        });
+    </script>
+    <img id="myCanvas1" src="">
+    <script>
+        document.getElementById("myCanvas1").src = image_print(2);
+        document.getElementById("myCanvas1").addEventListener('click', function () {
+            count('cb_frame2');
+        });
+    </script> -->
+
+
+
+    <img src="../image6_select/cb_frame1.png" name=edit-save id="myCanvas0" onclick="count('cb_frame1')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame2.png" name=edit-save id="myCanvas1" onclick="count('cb_frame2')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame3.png" name=edit-save id="myCanvas2" onclick="count('cb_frame3')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame4.png" name=edit-save id="myCanvas3" onclick="count('cb_frame4')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame5.png" name=edit-save id="myCanvas4" onclick="count('cb_frame5')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame6.png" name=edit-save id="myCanvas5" onclick="count('cb_frame6')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame7.png" name=edit-save id="myCanvas6" onclick="count('cb_frame7')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame8.png" name=edit-save id="myCanvas7" onclick="count('cb_frame8')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame9.png" name=edit-save id="myCanvas8" onclick="count('cb_frame9')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame10.png" name=edit-save id="myCanvas9" onclick="count('cb_frame10')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame11.png" name=edit-save id="myCanvas10" onclick="count('cb_frame11')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame12.png" name=edit-save id="myCanvas11" onclick="count('cb_frame12')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame13.png" name=edit-save id="myCanvas12" onclick="count('cb_frame13')" width="252"
+        height="380" />
+    <img src="../image6_select/cb_frame14.png" name=edit-save id="myCanvas13" onclick="count('cb_frame14')" width="252"
+        height="380" />
+    <button id="button" onclick="click_frame()">시작하기</button>
+
+
+    <script language="JavaScript">
+        time_cou();
+        btnDisabled();
+    </script>
+</body>
+
+</html>

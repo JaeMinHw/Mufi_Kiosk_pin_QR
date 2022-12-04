@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<title>Document</title>
+
+	<script src="../js/Kiosk_photo_4.js"></script>
+	<link href="../css/Kiosk_photo_4.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="#">
+</head>
+
+<!-- style="position:fixed; width:100vw;" -->
+
+<body>
+	<div id="imageShot" class="fadeIn">
+		<img src="data:image/jpeg;base64" name=edit-save id="myCanvas0" onclick="oncl('0')" width=255 height=170 />
+		<img src="data:image/jpeg;base64" name=edit-save id="myCanvas1" onclick="oncl('1')" width=255 height=170 />
+		<img src="data:image/jpeg;base64" name=edit-save id="myCanvas2" onclick="oncl('2')" width=255 height=170 />
+		<img src="data:image/jpeg;base64" name=edit-save id="myCanvas3" onclick="oncl('3')" width=255 height=170 />
+		<img src="data:image/jpeg;base64" name=edit-save id="myCanvas4" onclick="oncl('4')" width=255 height=170 />
+		<img src="data:image/jpeg;base64" name=edit-save id="myCanvas5" onclick="oncl('5')" width=255 height=170 />
+		<img src="data:image/jpeg;base64" name=edit-save id="myCanvas6" onclick="oncl('6')" width=255 height=170 />
+		<img src="data:image/jpeg;base64" name=edit-save id="myCanvas7" onclick="oncl('7')" width=255 height=170 />
+	</div>
+	<input type="button" id='target_btn' class="btn btn-primary" onclick="finish()" value="인화하기"
+		style="font-size: 50px;" />
+
+	<canvas class="fadeIn2" src="data:image/jpeg;base64" id="myCanvas11" width="640" height="950"
+		style="border: 1px solid rgb(83, 73, 73);"></canvas><br>
+		<span id="time" class="badge bg-primary fadeIntime"></span>
+
+	<script>
+		btnDisabled();
+		for (var i = 0; i < 8; i++) {
+			pri(i);
+		}
+		frame_pri();
+
+
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

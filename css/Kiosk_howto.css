@@ -1,0 +1,23 @@
+#pin {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    font-size: 40px;
+    padding: 20px 15px;
+
+}
+
+#qr {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    font-size: 40px;
+    padding: 20px 15px;
+}
+
+#time {
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    font-size: 70px;
+}

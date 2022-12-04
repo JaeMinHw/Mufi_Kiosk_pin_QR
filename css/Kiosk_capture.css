@@ -1,0 +1,40 @@
+#myCanvas {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    /* Safari and Chrome */
+    -moz-transform: rotateY(180deg);
+}
+
+#myCanvas1 {
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    /* Safari and Chrome */
+    -moz-transform: rotateY(180deg);
+}
+
+#time {
+    position: absolute;
+    top: 8%;
+    left: 75%;
+    font-size: 50px
+}
+
+#myVideo {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    /* Safari and Chrome */
+    -moz-transform: rotateY(180deg);
+}
+
+#photo_co {
+    position: absolute;
+    top: 4%;
+    left: 90%;
+    font-size: 40px;
+}
